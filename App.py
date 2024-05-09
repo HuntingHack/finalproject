@@ -23,7 +23,6 @@ pie_country_wise.update_layout(title_text="Zomato's Presence around the World", 
 
 
 app = Dash(__name__)
-server = app.server
 app.layout = html.Div(children=[
     
     #This is the main header of the dashboard displaying the name - ZOMATO DASHBOARD
